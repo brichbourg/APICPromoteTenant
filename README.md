@@ -30,7 +30,7 @@ Changes made to the Dev tenant manually in the APIC GUI can be promoted via a se
 ## How to install
 clone APICPromoteTenant from GitHub
 
-	git clone https://github.com/SahajaKoorapati/APICPromoteTenant.git
+	git clone https://github.com/brichbourg/APICPromoteTenant.git
 
 Install the ACI Toolkit (from the APICPromoteTenant dir)
 
