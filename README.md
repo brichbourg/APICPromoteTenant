@@ -2,7 +2,9 @@
 
 Authors:
 Koorapati, Sahaja <Sahaja.Koorapati@nexusis.com>
+
 Brantley Richbourg <Brantley.Richbourg@NexusIS.com>
+
 Sanchez, Milo <milo.sanchez@nexusis.com>
 
 # Description
