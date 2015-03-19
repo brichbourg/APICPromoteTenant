@@ -33,7 +33,7 @@ from_apic = {
     # Fill in with the APIC IP address
     'URL': 'https://' + '172.31.216.24',
     # Tenant or application that to be copied
-    'tenant': 'tenantA',
+    'tenant': 'dev',
     'application': 'applicationA'
 }
 
@@ -42,9 +42,9 @@ to_apic = {
     # Fill in with the APIC admin user id
     'LOGIN': 'admin',
     # Fill in with the APIC admin password
-    'PASSWORD': 'password',
+    'PASSWORD': 'scotch123',
     # Fill in with the APIC IP address
-    'URL': 'http://' + '1.2.3.4' + ':80/',
+    'URL': 'https://' + '172.31.216.24',
     # Tenant or application that to be copied
     'tenant': 'tenantB',
     'application': 'applicationB'
