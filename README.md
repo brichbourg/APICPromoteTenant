@@ -23,6 +23,7 @@ Changes made to the Dev tenant manually in the APIC GUI can be promoted via a se
 
 * Python 2.7+
 * Git
+* Cisco COBRA (Not publicly available as of 03/19/15)
 * Cisco ACI Toolkit
 * Cisco ARYA
 
