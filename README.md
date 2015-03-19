@@ -28,27 +28,26 @@ Changes made to the Dev tenant manually in the APIC GUI can be promoted via a se
 * Cisco ARYA
 
 ## How to install
-
-Clone the ACI Toolkit from GitHub
-
-	git clone https://github.com/datacenter/acitoolkit.git
-
-Install the ACI Toolkit
-
-	sudo python setup.py install
-
-Clone the ARYA Toolkit from GitHub
-
-	git clone https://github.com/datacenter/arya.git
-
-Install the AYRA Tooklit
-
-	sudo python setup.py install
-
-Clone APICPromoteTenant from GitHub
+clone APICPromoteTenant from GitHub
 
 	git clone https://github.com/SahajaKoorapati/APICPromoteTenant.git
 
+Install the ACI Toolkit (from the APICPromoteTenant dir)
+
+	cd acitoolkit
+	sudo python setup.py install
+
+
+Install the AYRA Tooklit (from the APICPromoteTenant dir)
+
+	cd arya
+	sudo python setup.py install
+
+
 # How to run
 
+## Command Syntax
+	./promoteTenant.sh <source_tenant> <dest_tenant> <revision_num>
 
+## Example
+	./promoteTenant.sh DEV QA 1.1 
