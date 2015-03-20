@@ -23,22 +23,30 @@ Changes made to the Dev tenant manually in the APIC GUI can be promoted via a se
 
 * Python 2.7+
 * Git
-* Cisco COBRA (Not publicly available as of 03/19/15)
-* Cisco ACI Toolkit
-* Cisco ARYA
+* Cisco COBRA (https://github.com/datacenter/corba - NOTE: the version used in this script is not publicly available as of 03/19/15)
+* Cisco ACI Toolkit (https://github.com/datacenter/acitoolkit)
+* Cisco ARYA (https://github.com/datacenter/arya)
 
 ## How to install
-clone APICPromoteTenant from GitHub
+
+Clone APICPromoteTenant from GitHub:
 
 	git clone https://github.com/brichbourg/APICPromoteTenant.git
 
-Install the ACI Toolkit (from the APICPromoteTenant dir)
+Clone Cobra from Githib & Install:
+
+	git clone https://github.com/datacenter/cobra.git
+	cd cobra
+	sudo python setup.py install
+
+
+Install the ACI Toolkit (from the APICPromoteTenant dir):
 
 	cd acitoolkit
 	sudo python setup.py install
 
 
-Install the AYRA Tooklit (from the APICPromoteTenant dir)
+Install the AYRA Tooklit (from the APICPromoteTenant dir):
 
 	cd arya
 	sudo python setup.py install
