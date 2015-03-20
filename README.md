@@ -14,7 +14,9 @@ This program is designed to allow Cisco APIC users the ability to copy settings 
 
 The idea is that each tenant in APIC is an application environment.  We will use the following environments in our example: Prod, QA, and Dev.
 
-Changes made to the Dev tenant manually in the APIC GUI can be promoted via a series of bash and Python scripts.  The changes will also have a version assigned to them so that you can track what version the environment is running at.  Those versions can be queired with a Python script.
+Changes made to the Dev tenant manually in the APIC GUI can be promoted via a series of bash and Python scripts.  The changes will also have a version assigned to them so that you can track what version the environment is running at.  Those versions can be queried with a future Python script.
+
+The version information is stored in the MIT (Management Information Tree) of the APIC controller in a property called ownerTag under the fvTenant object class for the tenant being pushing into the APIC by the script.  In other words, it is stored in a placed not modifiable in the APIC GUI.
 
 
 # Installation
